@@ -1,0 +1,72 @@
+body > #root > div {
+    height: 100vh;
+  }
+h1, p {
+    font-family: Lato;
+  }
+
+.bg {
+    background-image: url("./img/chess-background-2.jpeg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.number-correct {
+    text-align: center;
+    font-size: 500%;
+    color: black;
+}
+
+.display-square-selection {
+    text-align: center;
+    font-size: 500%;
+    color: black;
+}  
+
+.correct-answer {
+    text-align: center;
+    font-size: 500%;
+    color: green;
+}  
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 24%;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    height: 50px;
+    color: #3498db;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.timer {
+    position: absolute;
+    text-align: left;
+    font-size: 300%;
+    color: black;
+    left: 10%;
+
+}
+
+  #flip-button {
+    position: relative;
+    width: 49%;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  [data-boardid] {
+    position: relative;
+    border-radius: 100px;
+    margin: auto;
+    padding: 10px;
+  }
+  
